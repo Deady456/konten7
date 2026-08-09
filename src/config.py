@@ -54,6 +54,17 @@ if LLM_PROVIDER == "gemini":
     LLM_API_KEYS = GEMINI_API_KEYS
     LLM_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
     LLM_MODEL = CONFIG.get("script", {}).get("model", "models/gemini-2.5-flash")
+elif LLM_PROVIDER == "sambanova":
+    _smbkeys = []
+    for k, v in os.environ.items():
+        if k.startswith("SAMBANOVA_API_KEY") and v.strip():
+            _smbkeys.extend([x.strip().strip('"').strip(''') for x in re.split(r',|
+|\n', v) if x.strip()])
+    SAMBANOVA_API_KEYS = _smbkeys if _smbkeys else ["ab67a5a2-f0ae-4ab7-a86b-c7102eb521af"]
+    LLM_API_KEYS = SAMBANOVA_API_KEYS
+    LLM_API_KEY = LLM_API_KEYS[0]
+    LLM_BASE_URL = "https://api.sambanova.ai/v1"
+    LLM_MODEL = "Meta-Llama-3.1-70B-Instruct"
 elif LLM_PROVIDER == "groq":
     LLM_API_KEYS = GROQ_API_KEYS
     LLM_API_KEY = LLM_API_KEYS[0]

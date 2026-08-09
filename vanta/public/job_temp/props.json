@@ -1,0 +1,368 @@
+{
+  "title": "BONGKAR MITOS BAHASA",
+  "voice_audio": "job_temp/voice.mp3",
+  "broll": [
+    "job_temp/vid_0.mp4",
+    "job_temp/vid_1.mp4",
+    "job_temp/vid_2.mp4",
+    "job_temp/vid_3.mp4",
+    "job_temp/vid_4.mp4",
+    "job_temp/vid_5.mp4",
+    "job_temp/vid_6.mp4",
+    "job_temp/vid_7.mp4",
+    "job_temp/vid_8.mp4"
+  ],
+  "words": [
+    {
+      "word": " Bongkar",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": " mitos",
+      "start": 0.6,
+      "end": 0.9
+    },
+    {
+      "word": " bahasa.",
+      "start": 0.9,
+      "end": 1.38
+    },
+    {
+      "word": " Banyak",
+      "start": 2.1,
+      "end": 2.7
+    },
+    {
+      "word": " orang",
+      "start": 2.7,
+      "end": 2.88
+    },
+    {
+      "word": " percaya",
+      "start": 2.88,
+      "end": 3.28
+    },
+    {
+      "word": " bahwa",
+      "start": 3.28,
+      "end": 3.62
+    },
+    {
+      "word": " bahasa",
+      "start": 3.62,
+      "end": 3.94
+    },
+    {
+      "word": " ibu",
+      "start": 3.94,
+      "end": 4.12
+    },
+    {
+      "word": " mereka",
+      "start": 4.12,
+      "end": 4.38
+    },
+    {
+      "word": " menentukan",
+      "start": 4.38,
+      "end": 4.72
+    },
+    {
+      "word": " struktur",
+      "start": 4.72,
+      "end": 5.04
+    },
+    {
+      "word": " otak",
+      "start": 5.04,
+      "end": 5.44
+    },
+    {
+      "word": " dan",
+      "start": 5.44,
+      "end": 5.64
+    },
+    {
+      "word": " kemampuan",
+      "start": 5.64,
+      "end": 6.02
+    },
+    {
+      "word": " kognitif,",
+      "start": 6.02,
+      "end": 6.66
+    },
+    {
+      "word": " tetapi",
+      "start": 6.92,
+      "end": 7.3
+    },
+    {
+      "word": " apakah",
+      "start": 7.3,
+      "end": 7.58
+    },
+    {
+      "word": " benar?",
+      "start": 7.58,
+      "end": 7.92
+    },
+    {
+      "word": " Penelitian",
+      "start": 8.88,
+      "end": 9.36
+    },
+    {
+      "word": " neurolingwistik",
+      "start": 9.36,
+      "end": 10.06
+    },
+    {
+      "word": " menunjukkan",
+      "start": 10.06,
+      "end": 10.6
+    },
+    {
+      "word": " bahwa",
+      "start": 10.6,
+      "end": 10.88
+    },
+    {
+      "word": " penggunaan",
+      "start": 10.88,
+      "end": 11.36
+    },
+    {
+      "word": " bahasa",
+      "start": 11.36,
+      "end": 11.68
+    },
+    {
+      "word": " sehari",
+      "start": 11.68,
+      "end": 12.02
+    },
+    {
+      "word": "-hari",
+      "start": 12.02,
+      "end": 12.2
+    },
+    {
+      "word": " lebih",
+      "start": 12.2,
+      "end": 12.4
+    },
+    {
+      "word": " berpengaruh",
+      "start": 12.4,
+      "end": 12.88
+    },
+    {
+      "word": " daripada",
+      "start": 12.88,
+      "end": 13.2
+    },
+    {
+      "word": " bahasa",
+      "start": 13.2,
+      "end": 13.56
+    },
+    {
+      "word": " ibu",
+      "start": 13.56,
+      "end": 13.86
+    },
+    {
+      "word": " dalam",
+      "start": 13.86,
+      "end": 14.1
+    },
+    {
+      "word": " membentuk",
+      "start": 14.1,
+      "end": 14.42
+    },
+    {
+      "word": " struktur",
+      "start": 14.42,
+      "end": 14.68
+    },
+    {
+      "word": " otak.",
+      "start": 14.68,
+      "end": 15.12
+    },
+    {
+      "word": " Fakta",
+      "start": 16.08,
+      "end": 16.5
+    },
+    {
+      "word": " ilmiya",
+      "start": 16.5,
+      "end": 16.8
+    },
+    {
+      "word": " ini",
+      "start": 16.8,
+      "end": 17.02
+    },
+    {
+      "word": " mengejukkan",
+      "start": 17.02,
+      "end": 17.6
+    },
+    {
+      "word": " karena",
+      "start": 17.6,
+      "end": 17.84
+    },
+    {
+      "word": " menunjukkan",
+      "start": 17.84,
+      "end": 18.38
+    },
+    {
+      "word": " bahwa",
+      "start": 18.38,
+      "end": 18.62
+    },
+    {
+      "word": " otak",
+      "start": 18.62,
+      "end": 18.84
+    },
+    {
+      "word": " manusia",
+      "start": 18.84,
+      "end": 19.24
+    },
+    {
+      "word": " lebih",
+      "start": 19.24,
+      "end": 19.44
+    },
+    {
+      "word": " flexible",
+      "start": 19.44,
+      "end": 19.86
+    },
+    {
+      "word": " dan",
+      "start": 19.86,
+      "end": 20.22
+    },
+    {
+      "word": " dapat",
+      "start": 20.22,
+      "end": 20.42
+    },
+    {
+      "word": " beradaptasi",
+      "start": 20.42,
+      "end": 21.06
+    },
+    {
+      "word": " dengan",
+      "start": 21.06,
+      "end": 21.24
+    },
+    {
+      "word": " berbagai",
+      "start": 21.24,
+      "end": 21.58
+    },
+    {
+      "word": " bahasa",
+      "start": 21.58,
+      "end": 22.0
+    },
+    {
+      "word": " dan",
+      "start": 22.0,
+      "end": 22.22
+    },
+    {
+      "word": " lingkungan.",
+      "start": 22.22,
+      "end": 22.78
+    },
+    {
+      "word": " Jadi,",
+      "start": 22.78,
+      "end": 24.1
+    },
+    {
+      "word": " jangan",
+      "start": 24.62,
+      "end": 24.92
+    },
+    {
+      "word": " percaya",
+      "start": 24.92,
+      "end": 25.24
+    },
+    {
+      "word": " mitos",
+      "start": 25.24,
+      "end": 25.54
+    },
+    {
+      "word": " bahwa",
+      "start": 25.54,
+      "end": 25.84
+    },
+    {
+      "word": " bahasa",
+      "start": 25.84,
+      "end": 26.22
+    },
+    {
+      "word": " ibu",
+      "start": 26.22,
+      "end": 26.46
+    },
+    {
+      "word": " menentukan",
+      "start": 26.46,
+      "end": 26.82
+    },
+    {
+      "word": " semua",
+      "start": 26.82,
+      "end": 27.2
+    },
+    {
+      "word": " karena",
+      "start": 27.2,
+      "end": 27.96
+    },
+    {
+      "word": " kenyataannya",
+      "start": 27.96,
+      "end": 28.52
+    },
+    {
+      "word": " lebih",
+      "start": 28.52,
+      "end": 28.7
+    },
+    {
+      "word": " kompleks",
+      "start": 28.7,
+      "end": 29.14
+    },
+    {
+      "word": " dan",
+      "start": 29.14,
+      "end": 29.32
+    },
+    {
+      "word": " menarik.",
+      "start": 29.32,
+      "end": 29.76
+    }
+  ],
+  "durationInSeconds": 30.76
+}

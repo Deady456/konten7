@@ -91,7 +91,8 @@
     "fakta-tentang-perbandingan-mata-burung-hantu-dan-mata-manusia",
     "fakta-tentang-superkristal",
     "fakta-tentang-geomorfologi-pulau-vulkanik",
-    "fakta-tentang-fast-radio-bursts"
+    "fakta-tentang-fast-radio-bursts",
+    "fakta-tentang-kasus-pembunuhan-berantai"
   ],
   "published": [
     {
@@ -1039,8 +1040,18 @@
       "path": "/home/runner/work/konten-1/konten-1/output/20260809_081258_fakta-tentang-fast-radio-bursts/final.mp4",
       "video_id": "q5jBJsWYmV8",
       "publish_at": null
+    },
+    {
+      "ts": "20260809_154128",
+      "topic": "fakta-tentang-kasus-pembunuhan-berantai",
+      "title": "Mengungkap Kasus Pembunuhan Berantai Paling Mengerikan",
+      "path": "/home/runner/work/konten7/konten7/output/20260809_154128_fakta-tentang-kasus-pembunuhan-berantai/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 80,
-  "_voice_idx": 85
+  "_format_idx": 81,
+  "_voice_idx": 86
 }

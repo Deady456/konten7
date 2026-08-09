@@ -15,7 +15,7 @@ content_variation:
   - myth_busting
   min_format_switch: 5
 review:
-  mode: auto
+  mode: draft
   draft_dir: drafts
   auto_approve_score: 7
 script:
@@ -78,7 +78,7 @@ video:
   height: 1920
   fps: 30
 upload:
-  privacy: public
+  privacy: unlisted
   category_id: '27'
   made_for_kids: false
   channel: kasusmisteri

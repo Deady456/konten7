@@ -92,7 +92,8 @@
     "fakta-tentang-superkristal",
     "fakta-tentang-geomorfologi-pulau-vulkanik",
     "fakta-tentang-fast-radio-bursts",
-    "fakta-tentang-kasus-pembunuhan-berantai"
+    "fakta-tentang-kasus-pembunuhan-berantai",
+    "fakta-tentang-kasus-penipuan-identitas"
   ],
   "published": [
     {
@@ -1050,8 +1051,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260810_223328",
+      "topic": "fakta-tentang-kasus-penipuan-identitas",
+      "title": "Mengungkap Kasus Penipuan Identitas yang Menggemparkan Dunia",
+      "path": "/home/runner/work/konten7/konten7/output/20260810_223328_fakta-tentang-kasus-penipuan-identitas/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 81,
-  "_voice_idx": 86
+  "_format_idx": 82,
+  "_voice_idx": 87
 }

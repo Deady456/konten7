@@ -19,7 +19,7 @@ review:
   draft_dir: drafts
   auto_approve_score: 7
 script:
-  model: meta-llama/llama-3.3-70b-instruct
+  model: llama-3.3-70b-versatile
   target_seconds: 80
   words_per_second: 2.5
   seo:

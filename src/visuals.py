@@ -97,6 +97,40 @@ def download(url: str, out_path: Path) -> Path:
                         print(f"      downloading... {pct}%")
     return out_path
 
+def search_bing_image(query: str, out_dir: Path, result_index: int = 0) -> Path | None:
+    try:
+        from bing_image_downloader import downloader
+        import shutil
+        
+        tmp_dir = out_dir / "bing_tmp"
+        # bing-image-downloader creates a folder with the query name
+        query_safe = "".join([c if c.isalnum() else "_" for c in query])[:50]
+        
+        # We ask for a few images to pick the right index
+        limit = result_index + 2
+        
+        downloader.download(query, limit=limit, output_dir=str(tmp_dir), adult_filter_off=True, force_replace=False, timeout=30, verbose=False)
+        
+        # The downloaded files are in tmp_dir / query
+        download_folder = tmp_dir / query
+        if download_folder.exists():
+            files = list(download_folder.glob("*"))
+            if files:
+                # Pick the file based on result_index
+                idx = min(result_index, len(files) - 1)
+                selected_file = files[idx]
+                
+                # Copy to our out_dir to preserve it, then clean up tmp
+                final_path = out_dir / f"bing_img_{query_safe}_{result_index}{selected_file.suffix}"
+                shutil.copy2(selected_file, final_path)
+                
+                # Cleanup
+                shutil.rmtree(tmp_dir, ignore_errors=True)
+                return final_path
+    except Exception as e:
+        print(f"      Bing Search error for {query}: {e}")
+    return None
+
 def search_wikipedia_image(name: str) -> str | None:
     encoded_name = requests.utils.quote(name)
     # 1. Try exact match first
@@ -173,8 +207,29 @@ def _fetch_single_clip(i: int, j: int, scene: dict, varied_q: str, out_dir: Path
     clean_q = simplify_query(q)
     final_mp4 = out_dir / f"scene_{i:02d}_{j:02d}.mp4"
     
-    # 0. Always try Wikipedia first if factual_subject is present
+    # 0. Bing Image Search (Highest Accuracy for News/Crime/Entities)
     factual_subject = scene.get("factual_subject")
+    search_q = factual_subject if (factual_subject and str(factual_subject).lower() != "null") else clean_q
+    if search_q and search_q.lower() != "abstract background":
+        bing_img_path = search_bing_image(search_q, out_dir, result_index=j)
+        if bing_img_path:
+            print(f"      found Bing photo for {search_q}")
+            try:
+                import subprocess
+                subprocess.run([
+                    "ffmpeg", "-y", "-loop", "1", "-i", str(bing_img_path),
+                    "-lavfi", "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,boxblur=20:20[bg];[0:v]scale=1080:1920:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2",
+                    "-c:v", "libx264", "-t", "4", "-pix_fmt", "yuv420p",
+                    str(final_mp4)
+                ], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                # Cleanup the raw image
+                if bing_img_path.exists():
+                    bing_img_path.unlink()
+                return final_mp4
+            except Exception as e:
+                print(f"      ffmpeg failed for Bing image {search_q}: {e}")
+
+    # 1. Try Wikipedia if Bing fails and factual_subject is present
     if factual_subject and str(factual_subject).lower() != "null":
         # Modify query slightly if it's the second clip for the same scene to avoid same image
         search_term = factual_subject if j == 0 else f"{factual_subject} detail"

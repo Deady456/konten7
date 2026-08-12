@@ -13,3 +13,5 @@ PyYAML>=6.0
 rich>=13.0.0
 
 tiktok-uploader>=1.2.0
+
+bing-image-downloader

@@ -93,7 +93,9 @@
     "fakta-tentang-geomorfologi-pulau-vulkanik",
     "fakta-tentang-fast-radio-bursts",
     "fakta-tentang-kasus-pembunuhan-berantai",
-    "fakta-tentang-kasus-penipuan-identitas"
+    "fakta-tentang-kasus-penipuan-identitas",
+    "fakta-tentang-perbandingan-kasus-kriminal-dalam-dunia-mayoritas-kanan-dan-kiri",
+    "kasus-kriminal-dunia"
   ],
   "published": [
     {
@@ -1061,8 +1063,28 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260811_211937",
+      "topic": "fakta-tentang-perbandingan-kasus-kriminal-dalam-dunia-mayoritas-kanan-dan-kiri",
+      "title": "Mengapa Kasus Kriminal Berbeda di Negara Kanan dan Kiri?",
+      "path": "C:\\Users\\Administrator\\Desktop\\patch_temp2\\konten7\\output\\20260811_211937_fakta-tentang-perbandingan-kasus-kriminal-dalam-dunia-mayori\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
+    },
+    {
+      "ts": "20260811_212317",
+      "topic": "kasus-kriminal-dunia",
+      "title": "Misteri Pembunuhan di Rumah Kosong",
+      "path": "C:\\Users\\Administrator\\Desktop\\patch_temp2\\konten7\\output\\20260811_212317_kasus-kriminal-dunia\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 82,
-  "_voice_idx": 87
+  "_format_idx": 97,
+  "_voice_idx": 96
 }

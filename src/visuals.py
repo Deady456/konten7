@@ -102,7 +102,10 @@ def search_bing_image(query: str, out_dir: Path, result_index: int = 0) -> Path 
         from bing_image_downloader import downloader
         import shutil
         
-        tmp_dir = out_dir / "bing_tmp"
+        # Use a short path to avoid Windows MAX_PATH (260 char) limit
+        tmp_dir = Path(r"C:\tmp\bing_tmp")
+        tmp_dir.mkdir(parents=True, exist_ok=True)
+        
         # bing-image-downloader creates a folder with the query name
         query_safe = "".join([c if c.isalnum() else "_" for c in query])[:50]
         

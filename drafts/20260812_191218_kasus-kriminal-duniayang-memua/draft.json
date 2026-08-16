@@ -1,0 +1,51 @@
+{
+  "topic": "kasus-kriminal-duniayang-memuat-tokoh-dennis-rende",
+  "title": "Kasus Mengerikan Dennis Rader, Pembunuh Berantai yang Terlahir dari Ketidaknormalan",
+  "description": "Dennis Rader, seorang polisi yang hidup double life sebagai pembunuh berantai. Ia memiliki keluarga yang bahagia, tapi di balik itu semua, ia memiliki keinginan untuk membunuh. #KasusKriminal #PembunuhBerantai #DennisRader #BtkKiller #KegelapanDibalikKehidupan",
+  "tags": [
+    "kasus kriminal",
+    "pembunuh berantai",
+    "dennis rende",
+    "btk killer",
+    "kegelapan dibalik kehidupan",
+    "kejahatan",
+    "kriminal",
+    "misteri"
+  ],
+  "scenes": [
+    {
+      "text": "SEORANG POLISI PELAKU KEJAHATAN",
+      "visual_query": "police officer family"
+    },
+    {
+      "text": "Di Kansas, Amerika Serikat, hiduplah seorang pria yang terlihat normal, Dennis Rader, yang bekerja sebagai polisi dan memiliki keluarga yang bahagia.",
+      "visual_query": "police officer family",
+      "factual_subject": "Dennis Rader"
+    },
+    {
+      "text": "Namun, di balik kehidupannya yang terlihat normal, Dennis Rader memiliki keinginan untuk membunuh dan melakukan kejahatan.",
+      "visual_query": "dark alley crime scene",
+      "factual_subject": "Dennis Rader"
+    },
+    {
+      "text": "Ia menggunakan julukan 'BTK Killer' yang singkatan dari 'Bind, Torture, Kill', dan membunuh banyak orang, termasuk anak-anak dan wanita.",
+      "visual_query": "crime scene tape police",
+      "factual_subject": "BTK Killer"
+    },
+    {
+      "text": "Setelah bertahun-tahun melakukan kejahatan, Dennis Rader akhirnya tertangkap dan dihukum seumur hidup.",
+      "visual_query": "prison cell bars",
+      "factual_subject": "Dennis Rader"
+    },
+    {
+      "text": "Jangan lupa subscribe channel ini untuk mendapatkan informasi tentang kasus kriminal dan misteri yang menarik dan tidak terduga.",
+      "visual_query": "subscribe button",
+      "factual_subject": null
+    }
+  ],
+  "format": null,
+  "voice": null,
+  "video_path": "C:\\Users\\Administrator\\Desktop\\patch_temp2\\konten7\\drafts\\20260812_191218_kasus-kriminal-duniayang-memua\\final.mp4",
+  "created_at": "2026-08-12T19:12:18.342983",
+  "status": "pending"
+}

@@ -95,7 +95,9 @@
     "fakta-tentang-kasus-pembunuhan-berantai",
     "fakta-tentang-kasus-penipuan-identitas",
     "fakta-tentang-perbandingan-kasus-kriminal-dalam-dunia-mayoritas-kanan-dan-kiri",
-    "kasus-kriminal-dunia"
+    "kasus-kriminal-dunia",
+    "fakta-tentang-kasus-misterius-hilangnya-pesawat-mh370",
+    "kasus-kriminal-duniayang-memuat-tokoh-dennis-rende"
   ],
   "published": [
     {
@@ -1083,8 +1085,28 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260812_181909",
+      "topic": "fakta-tentang-kasus-misterius-hilangnya-pesawat-mh370",
+      "title": "Misteri Hilangnya MH370: 5 Fakta Mengagetkan",
+      "path": "C:\\Users\\Administrator\\Desktop\\patch_temp2\\konten7\\output\\20260812_181909_fakta-tentang-kasus-misterius-hilangnya-pesawat-mh370\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
+    },
+    {
+      "ts": "20260812_190118",
+      "topic": "kasus-kriminal-duniayang-memuat-tokoh-dennis-rende",
+      "title": "Kasus Mengerikan Dennis Rader, Pembunuh Berantai yang Terlahir dari Ketidaknormalan",
+      "path": "C:\\Users\\Administrator\\Desktop\\patch_temp2\\konten7\\output\\20260812_190118_kasus-kriminal-duniayang-memuat-tokoh-dennis-rende\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 97,
-  "_voice_idx": 96
+  "_format_idx": 102,
+  "_voice_idx": 100
 }

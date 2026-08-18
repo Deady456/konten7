@@ -56,7 +56,7 @@ if LLM_PROVIDER == "gemini":
     LLM_MODEL = CONFIG.get("script", {}).get("model", "models/gemini-2.5-flash")
 elif LLM_PROVIDER == "groq":
     LLM_BASE_URL = "https://api.groq.com/openai/v1"
-    LLM_MODEL = "qwen-3.6-27b"
+    LLM_MODEL = "openai/gpt-oss-120b"
 else:
     LLM_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
     LLM_MODEL = "models/gemini-2.5-flash"
@@ -78,7 +78,7 @@ if GROQ_API_KEYS:
         "name": "groq",
         "keys": GROQ_API_KEYS,
         "base_url": "https://api.groq.com/openai/v1",
-        "model": "qwen-3.6-27b"
+        "model": "openai/gpt-oss-120b"
     }
 if OPENROUTER_API_KEYS:
     _all_providers["openrouter"] = {

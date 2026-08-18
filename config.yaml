@@ -19,7 +19,7 @@ review:
   draft_dir: drafts
   auto_approve_score: 7
 script:
-  model: qwen-3.6-27b
+  model: openai/gpt-oss-120b
   target_seconds: 80
   words_per_second: 2.5
   seo:
@@ -67,10 +67,10 @@ branding:
 captions:
   whisper_model: tiny
   font: Anton
-  font_size: 70
+  font_size: 56
   primary_color: '&H0000FFFF'
   outline_color: '&H00000000'
-  outline: 6
+  outline: 5
   words_per_caption: 1
   position_y: 0.55
 video:
@@ -104,9 +104,9 @@ upload:
 hook_text:
   enabled: true
   font: Anton
-  font_size: 70
+  font_size: 56
   color: white
   outline_color: '&H00000000'
-  outline: 4
+  outline: 5
   position: center
   duration: 3
